@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+   background-color: rgb(12, 12, 12);
+}
+
+.left {
+    height: 100vh;
+    width: 15%;
+    /*background-color: rgb(13, 13, 13);*/
+    color: rgb(245, 238, 238);
+    align-items: center;
+    padding: 0vh 2vw;
+    position:fixed;
+    border-right: 1.5px solid #343434;
+}
+
+.left h2 {
+    padding: 40px 0.2px;
+    font-family:vGeorgia;
+
+}
+.home {
+    height: 4vh;
+    display: flex;
+    font-size: 1vw;
+    column-gap: 15px;
+    margin: 1.5vw 0;
+}
+
+.search {
+    height: 3.5vw;
+    display: flex;
+    font-size: 1vw;
+    column-gap: 15px;
+}
+.explore {
+    height: 3.5vw;
+    display: flex;
+    font-size: 1vw;
+    column-gap: 15px;
+}
+
+.reels {
+    height: 3.5vw;
+    display: flex;
+    font-size: 1vw;
+    column-gap: 15px;
+}
+ .messages {
+    height: 3.5vw;
+    display: flex;
+    font-size: 1vw;
+    column-gap: 15px;
+}
+
+ .notifications {
+    height: 3.5vw;
+    display: flex;
+    font-size: 1vw;
+    column-gap: 15px;
+}
+
+ .create {
+    height: 3.5vw;
+    display: flex;
+    font-size: 1vw;
+    column-gap: 15px;
+}
+
+.profil {
+    height: 3.5vw;
+    display: flex;
+    font-size: 1vw;
+    column-gap: 15px;
+}
+
+.more {
+    display: flex;
+    margin: 8vw 0.1vw;
+    column-gap: 30px;
+}
+
+.profil img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.home i {
+    font-size: 1.7vw;
+}
+
+.search i {
+    font-size: 1.7vw;
+}
+
+.explore i {
+    font-size: 1.7vw;
+}
+
+.reels i {
+    font-size: 1.5vw;
+}
+
+.messages i {
+    font-size: 1.5vw;
+}
+
+.notifications i {
+    font-size: 1.6vw;
+}
+
+.create i {
+    font-size: 1.4vw;
+}
+
+.more i {
+    font-size: 2.2vw;
+} 
+
+/** right side **/
+
+.right {
+    height: 100vh;
+    width: 85%;
+    color: rgb(246, 246, 250);
+    margin-left: 200px;
+    /background-color: azure;
+}
+
+.frnt {
+    height:100%;
+    width: 80%;
+    margin-left: 9vw;
+    display: flex;
+    /*background-color: rgb(28, 191, 82);*/
+
+}
+
+.rightlift {
+    height: 46vh;
+    width: 30%;
+    /background-color: rgb(234, 15, 15);
+}
+
+.rightright {
+    height: 46vh;
+    width: 70%;
+    /background-color: darkmagenta;
+}
+
+.navbar {
+    height: 20px;
+    width: 97.9%;
+    /background-color: brown;
+    display: flex;
+    padding: 2.9vw 0.5vw;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar h4 {
+    margin-left: 42px;
+    font-weight: 900;
+    text-shadow: 0 -5px 5px rgb(12, 192, 12),0 4px 5px red;
+    position: relative;
+}
+
+#tik i {
+    font-size: 25px;
+    color: blue;
+}
+
+.navbar button {
+    display: flex;
+    font-size: 1vw;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 110px;
+    border-radius:9px;
+    border: none;
+    cursor:pointer;
+    background-color: #3d3d3d;
+    color: white;
+}
+
+.navbar i {
+    font-size: 2vw;
+}
+
+.image {
+    height:200px;
+    width: 550px; 
+    display: flex;
+    margin: 18vh 9vw;
+}
+
+.image img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+.navbar2 {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    /background-color: blue;
+}
+
+.flow{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.flow h5 {
+    font-size: 1.2vw;
+    font-family:cursive;
+}
+
+.bio {
+    margin-left: 50px;
+}
+
+.bio h6 {
+    color: rgb(203, 198, 190);
+}
+
+.link {
+    display: flex;
+    gap: 5px;
+    color: rgb(116, 72, 219);
+}
+
+.link i {
+    color: white;
+}
+
+/** highlight **/
+
+.highlite {
+    display: flex;
+    position: absolute;
+    margin:70px -245px;
+    gap: 52px;
+}
+
+.p1 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border:3.5px solid rgb(93, 1, 1);
+    
+}
+.p1 h6 {
+  font-size: 0.8vw;
+  margin-left: 8px;
+  justify-content: space-evenly;
+}
+
+.border {
+    border-bottom: 0.1px solid rgb(53, 52, 52);
+    width: 127%;
+    display: flex;
+    position: absolute;
+    position: relative;
+    margin: 210px -240px;
+}
+.pr {
+  position: absolute;
+  display: flex;
+  margin:6px 340px;
+  gap: 25px;
+}
+#post {
+  border-bottom: 2px solid rgb(255, 253, 253);
+}
+
+
+/*.h1 span {
+    opacity: 0;
+    display: inline-block;
+
+}*/
+
+/**    **/
+
+
+video {
+    display: none;
+  }
+
+.navbar h4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height:3px;
+    width: 0%;
+    background-color: #0817f1;
+    transition: all ease 1s;
+}
+
+.navbar h4:hover::after {
+    width: 100%;
+}
+
+  .h5 {
+    position: relative;
+    font-weight: 600;
+  }
+
+  .h5::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background-color: rgb(116, 72, 219);
+    transition: all ease 1s;
+  }
+
+  .h5:hover::after {
+    width: 100%;
+  }
+
+  .border::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #0817f1;
+    transition: all ease 0.1s;
+  }
+
+  .border:hover::after {
+    width: 100%;
+  }
+/**     **/
+.page2 {
+  height: 745px;
+  width: 100%;
+  color: aliceblue;
+  /*background-color:rgb(12, 12, 12) ;*/
+}
+.chald {
+  height: 100%;
+  width: 67.9%;
+  margin-left: 22.1vw;
+  /**background-color: aquamarine;**/
+}
+
+@media (max-width:600px){
+    .main {
+        height: 100%;
+        width: 100%;
+       background-color: rgb(12, 12, 12);
+    }
+    
+    .left {
+        display:none; 
+    }
+    
+    
+    
+    
+    /** right side **/
+    
+    .right {
+        height: 400vh;
+        width: 430vw;
+        margin-right: 0vw;
+        margin-left: -8.9px;
+        position: relative;
+        color: rgb(246, 246, 250);
+        background-color: rgb(14, 14, 14);*/
+    }
+    
+    .frnt {
+        height:100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+       /* background-color: rgb(30, 179, 80);*/
+    
+    }
+    
+    .rightlift {
+        height: 56vh;
+        width: 30%;
+        /*background-color: rgb(234, 15, 15);*/
+    }
+    
+    .rightright {
+        height: 56vh;
+        width: 70%;
+       /* background-color: darkmagenta;*/
+    }
+    
+    .navbar {
+        height: 250px;
+        width: 97.9%;
+       /* background-color: brown;*/
+        display: flex;
+        padding: 3.9vw 0.5vw;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .navbar h4 {
+        font-size: 15vw;
+        margin-left: 50px;
+        margin-top: 50px;
+        font-weight: 900;
+        position: absolute;
+        margin-top: 350px;
+        text-shadow: 0 -5px 5px rgb(12, 192, 12),0 4px 5px red;
+    }
+    
+    #tik i {
+        font-size: 25px;
+        color: blue;
+    }
+    
+    .navbar button {
+        display: flex;
+        font-size: 8.7vw;
+        align-items: center;
+        justify-content: center;
+        height: 132px;
+        width: 400px;
+        border-radius:30px;
+        border: none;
+        cursor:pointer;
+        background-color: #3d3d3d;
+        color: white;
+    }
+    
+    .navbar i {
+        font-size: 2vw;
+    }
+    
+    .image {
+        height:400px;
+        width: 850px; 
+        display: flex;
+        margin: 22vh 20vw;
+    }
+    
+    .image img {
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+    
+    }
+    
+    .navbar2 {
+        height: 85px;
+        width: 100%;
+        display: flex;
+        margin-top: 100px;
+    }
+    
+    .flow{
+        display: flex;
+        align-items: center;
+        gap: 45px;
+        font-weight: 900;
+        margin-left: 50px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .flow h5 {
+        font-size: 13.2vw;
+        font-family:cursive;
+    }
+    
+    .bio {
+        font-size: 20vw;
+        margin-left: -370px;
+        margin-top: 150px;
+    }
+    
+    .bio h6 {
+        font-size: 15vw;
+        color: rgb(203, 198, 190);
+    }
+    
+    .link {
+        font-size: 14vw;
+        display: flex;
+        gap: 5px;
+        color: rgb(116, 72, 219);
+    }
+    
+    .link i {
+        color: white;
+    }
+    
+    /** highlight **/
+    
+    .highlite {
+        display: flex;
+        position: absolute;
+        margin:90px -375px;
+        gap: 52px;
+    }
+    
+    .p1 img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border:3.5px solid rgb(93, 1, 1);
+        
+    }
+    .p1 h6 {
+      font-size: 9.7vw;
+      margin-left: 8px;
+      justify-content: space-evenly;
+    }
+    .p1 h5 {
+        font-size: 11vw;
+        margin-left: 50px;
+    }
+    .none {
+        display: none;
+    }
+    .one{
+        display: none;
+    }
+    
+    .border {
+        border-bottom: 8.1px solid rgb(53, 52, 52);
+        width: 130%;
+        display: flex;
+        position: absolute;
+        position: relative;
+        margin: 500px -400px;
+    }
+    .pr {
+        font-size: 18vw;
+      position: absolute;
+      display: flex;
+      margin:7px 350px;
+      gap: 28px;
+    }
+    #post {
+      border-bottom: 2px solid rgb(255, 253, 253);
+    }
+    
+    
+    /*.h1 span {
+        opacity: 0;
+        display: inline-block;
+    
+    }*/
+    
+    /**    **/
+    
+    
+    video {
+        display: none;
+      }
+    
+    .navbar h4::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height:3px;
+        width: 0%;
+        background-color: #0817f1;
+        transition: all ease 1s;
+    }
+    
+    .navbar h4:hover::after {
+        width: 100%;
+    }
+    
+      .h5 {
+        position: relative;
+        font-weight: 600;
+      }
+    
+      .h5::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 0%;
+        background-color: rgb(116, 72, 219);
+        transition: all ease 1s;
+      }
+    
+      .h5:hover::after {
+        width: 100%;
+      }
+    
+      .border::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 0%;
+        background-color: #0817f1;
+        transition: all ease 0.1s;
+      }
+    
+      .border:hover::after {
+        width: 100%;
+      }
+    /**     **/
+    .page2 {
+      height: 745px;
+      width: 427vw;
+      color: aliceblue;
+      background-color:rgb(14, 13, 13) ;**/
+    }
+    .chald {
+      height: 100%;
+      width: 400vw;
+      /**background-color: aquamarine;**/
+    }
+}
